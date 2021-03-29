@@ -16,4 +16,4 @@ Python3. A good editor/developmen tool
 
 ## Authors
 
-* **John Nealy** - *Initial work* - [YourWebsite](https://example.com/)
+* **John Nealy** - *Initial work* - [Here](https://github.com/codejkn3/mycode/tree/main)
