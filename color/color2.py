@@ -33,7 +33,7 @@ def main():
     print(crayons.magenta('magenta string', bold=True))
 
     # print 'white string' in white
-    print(crayons.white('white string', bold=True))
+    print(crayons.green('green string', bold=True))
 
 # we must call our main function or our code will not run!
 main()
