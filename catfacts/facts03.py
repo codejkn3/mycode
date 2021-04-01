@@ -8,7 +8,7 @@ def main():
     """Run time code"""
     ## create r, which is our request object
     r = requests.get('https://cat-fact.herokuapp.com/facts')
-    print(r.__format__)
+    print("URL is " + r.url + "\n")
 
     ## catfact is our iterable -- that just means it will take on the values found within
     ## r.json()["all"], one after the next-- which happens to be a dictionary
