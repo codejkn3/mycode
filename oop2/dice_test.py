@@ -2,13 +2,15 @@
 Test the objects created in cheatdice.py
 John Nealy
 '''
+
+#import the classes
 from cheatdice import Player
 from cheatdice import Cheat_Swapper
 from cheatdice import Cheat_Loaded_Dice
 
 # instantiate cheaters
-cheater1 = Cheat_Swapper()
-cheater2 = Cheat_Loaded_Dice()
+cheater1 = Cheat_Swapper() #cheats by swapping the last roll for a 6
+cheater2 = Cheat_Loaded_Dice() #cheats by bumping up each roll by 1 (to a max value of 6)
 
 #players roll the dice
 cheater1.roll()
